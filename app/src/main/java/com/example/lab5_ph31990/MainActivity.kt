@@ -52,8 +52,8 @@ fun MainScreen() {
         }
         Button(
             onClick = {
-//                val intent = Intent(context, Bai2Lab4::class.java)
-//                context.startActivity(intent)
+                val intent = Intent(context, Bai2Lab5::class.java)
+                context.startActivity(intent)
             },
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.Green,
@@ -64,8 +64,8 @@ fun MainScreen() {
         }
         Button(
             onClick = {
-//                val intent = Intent(context, Bai3Lab4::class.java)
-//                context.startActivity(intent)
+                val intent = Intent(context, Bai3Lab5::class.java)
+                context.startActivity(intent)
             },
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.Green,
